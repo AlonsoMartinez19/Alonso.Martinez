@@ -1,0 +1,53 @@
+
+.topbar {/* fondo topbar */
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+    overflow: hidden;
+}
+
+.topbar-item { /* ajuste de margen de los elementos */
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.topbar-item:last-child {
+    margin-right: 0; /* ajuste margen topbar de la derecha */
+}
+
+.topbar-left,
+.topbar-right {
+    display: inline-block; /* ajuste para que los items se encuentren en la misma linea */
+}
+
+.topbar-right {
+    float: right; /* alinea los elementos de la derecha */
+}
+
+.topbar-left {
+    margin-left: 20px; /* se vuelve a ajustar el margen del topbar pero ahora desde la izquierda */
+}
+
+.topbar-button { /* ajuste de los botones para que sean transparentes y se ajusten a la visual del topbar */
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.imagen {
+    max-width: 100%; /* Establece el ancho máximo de la imagen al 100% del tamaño del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener las proporciones */
+}
+
+.footer-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+
